@@ -1,17 +1,17 @@
 .navbar-brand{
-    font-family: Brush Script MT;
+    font-family: Brush Script MT, serif;
     font-size: 30px;
 }
 
 .introduction{
     color: #0a0909;
-    font-family:Serif;
+    font-family: Serif, serif;
 }
 
 h1{
     color: #0000FF;
     padding-left: 100px;
-    font-family: Algerian;
+    font-family: Algerian, serif;
 }
 
 .skills  {
@@ -22,5 +22,16 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.downloadbtn{
+    background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.downloadbtn:hover{
+  background-color: RoyalBlue;
 }
 
